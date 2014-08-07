@@ -1,66 +1,14 @@
 <div class="row">
 	<h2>Experiences professionnelles</h2>
-	<div class="panel panel-primary">
-		<div class="panel-heading"><strong>ORANGE</strong> - Pessac (33) <em class="pull-right">08-2013 / Aujourd'hui</em></div>
+	<div class="panel panel-primary" ng-repeat="experience in experiences">
+		<div class="panel-heading"><strong>{{experience.societe}}</strong> - {{experience.societe}} ({{experience.departement}}) <em class="pull-right">{{experience.dates}}</em></div>
 		<div class="list-group">
-			<div class="list-group-item">Mission pour le compte de SII.</div>	
-		  	<div class="list-group-item">	
-		  		<p>
-			  		Développement du backend de l’application mobile Business Lounge disponible sur iOS, Android et Windows phone.
-					<br/>Equipe SCRUM multi géo localisée (Pessac, Arcueil / Issy-les-Moulineaux, Lannion, Rennes)
+			<div class="list-group-item" ng-repeat="projet in experience.projets">
+				<p>
+					<div ng-repeat="description in projet.description">{{description}}</div>
 				</p>
-				<small>Environnement technique : Java/J2EE, Spring MVC, Apache CXF, Hibernate, Apache Tomcat, PostgreSQL, Maven, Jenkins</small>
-		  	</div>
-		  	<div class="list-group-item">	
-		  		<p>
-		  			Développement de prototypes sur des architectures REST et des front-end AngularJS
-		  		</p>
-				<small>Environnement technique : AngularJS, Grunt, Bower, Bootstrap, Yeoman, Java/J2EE, Jersey, Jackson, Apache Tomcat, Maven</small>
-		  	</div>
-		  	<div class="list-group-item">	
-		  		<p>
-		  			Scrum Master au sein d'une équipe réalisant des prototypes pour le portail MonCRM.
-					<br/>Organisation de jeux agiles.
-					<br/>Mise en place de SCRUM pour une equipe multi geo localisee (Pessac, Arcueil, Lyon).
-					<br/>Puis transition vers Kanban.
-				</p>
-				<small>Environnement technique : Java/J2EE, IBM Message Broker (ESB), IBM Webspere Portal, Spring MVC, JQuery, Apache CXF, Jersey, Maven</small>
-		  	</div>
-		  	<div class="list-group-item">	
-		  		<p>
-		  			Développement du portail MesServices au sein d'une équipe SCRUM
-		  		</p>
-				<small>Environnement technique : Java/J2EE, IBM Message Broker (ESB), IBM Webspere Portal, Spring MVC, JQuery, Apache CXF, Maven</small>
-		  	</div>
-		</div>
-	</div>
-	<div class="panel panel-primary">
-		<div class="panel-heading"><strong>SII</strong> - Mérignac (33) <em class="pull-right">08-2013 / Aujourd'hui</em></div>
-		<div class="list-group">
-			<div class="list-group-item">	
-		  		<p>
-			  		Ingénieur consultant.
-					<br/>Organisation de jeux agiles.
-					<br/>Organisation et animation d’un atelier (Artistes et Spécifieurs) lors du Scrum Wine #14.1 dans les locaux SII
-		  		</p>
-			</div>
-		</div>
-	</div>
-	<div class="panel panel-primary">
-		<div class="panel-heading"><strong>Ponsolle Web Consulting</strong> - Bordeaux (33) <em class="pull-right">10-2009 / Aujourd'hui</em></div>
-		<div class="list-group">
-			<div class="list-group-item">	
-		  		<p>
-			  		Développement d'une application de gestion de comptabilité d'une auto entreprise
-					<br/>Développement d'une application mobile sous Android connectée à l'application de gestion ci-dessus
-					<br/>Webmaster du site http://www.hair-style.fr (Octobre 2009 - Aujourd'hui)
-					<br/>Webmaster du site http://www.medoc-bat.fr (Septembre 2010 - Septembre 2012)
-					<br/>Webmaster du site http://www.onaturelle.fr (Juillet 2012 - Juillet 2013)
-					<br/>Webmaster du site http://www.nogueira.fr (Décembre 2010 - Aujourd'hui)
-					<br/>Webmaster du site http://www.ponsolle-web-consulting.fr (Mars 2012 - Aujourd'hui)
-		  		</p>
-				<small>Environnement technique : Android, AChartEngine, Java, MySQL, PHP5, Symfony2, Doctrine2, Xampp, Apache, JQuery, Mercurial</small>
-		  	</div>
-		</div>
-	</div>
+				<small ng-show="projet.envTech">Environnement technique : {{projet.envTech}}</small>
+			</div>	
+		</div>	
+	</div>	
 </div>

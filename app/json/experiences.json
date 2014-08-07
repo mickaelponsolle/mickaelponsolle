@@ -1,0 +1,83 @@
+{
+	"experiences" : [
+		{
+			"societe" : "ORANGE",
+			"ville" : "Pessac",
+			"departement" : "33",
+			"dates" : "08-2013 / Aujourd'hui",
+			"projets" : [
+				{
+					"description" : [
+						"Mission pour le compte de SII"
+					],
+					"envTech" : ""
+				},
+				{
+					"description" : [
+						"Développement du backend de l’application mobile Business Lounge disponible sur iOS, Android et Windows phone.",
+						"Equipe SCRUM multi géo localisée (Pessac, Arcueil / Issy-les-Moulineaux, Lannion, Rennes)"
+					],
+					"envTech" : "Java/J2EE, Spring MVC, Apache CXF, Hibernate, Apache Tomcat, PostgreSQL, Maven, Jenkins"
+				},
+				{
+					"description" : [
+						"Développement de prototypes sur des architectures REST et des front-end AngularJS"
+					],
+					"envTech" : "AngularJS, Grunt, Bower, Bootstrap, Yeoman, Java/J2EE, Jersey, Jackson, Apache Tomcat, Maven"
+				},
+				{
+					"description" : [
+						"Scrum Master au sein d'une équipe réalisant des prototypes pour le portail MonCRM.", 
+						"Organisation de jeux agiles.", 
+						"Mise en place de SCRUM pour une equipe multi geo localisee (Pessac, Arcueil, Lyon).", 
+						"Puis transition vers Kanban."
+					],
+					"envTech" : "Java/J2EE, IBM Message Broker (ESB), IBM Webspere Portal, Spring MVC, JQuery, Apache CXF, Jersey, Maven"
+				},
+				{
+					"description" : [
+						"Développement du portail MesServices au sein d'une équipe SCRUM"
+					],
+					"envTech" : "Java/J2EE, IBM Message Broker (ESB), IBM Webspere Portal, Spring MVC, JQuery, Apache CXF, Maven"
+				}
+			]
+		},
+		{
+			"societe" : "SII",
+			"ville" : "Mérignac",
+			"departement" : "33",
+			"dates" : "08-2013 / Aujourd'hui",
+			"projets" : [
+				{
+					"description" : [
+						"Ingénieur consultant.",
+						"Organisation de jeux agiles.", 
+						"Organisation et animation d’un atelier (Artistes et Spécifieurs) lors du Scrum Wine #14.1 dans les locaux SII"
+					],
+					"envTech" : ""
+				}
+			]
+		},
+		{
+			"societe" : "Ponsolle Web Consulting",
+			"ville" : "Parempuyre",
+			"departement" : "33",
+			"dates" : "10-2009 / Aujourd'hui",
+			"projets" : [
+				{
+					"description" : [
+						"Développement d'une application de gestion de comptabilité d'une auto entreprise",
+						"Développement d'une application mobile sous Android connectée à l'application de gestion ci-dessus",
+						"Webmaster du site http://www.hair-style.fr (Octobre 2009 - Aujourd'hui)", 
+						"Webmaster du site http://www.medoc-bat.fr (Septembre 2010 - Septembre 2012)", 
+						"Webmaster du site http://www.onaturelle.fr (Juillet 2012 - Juillet 2013)",
+						"Webmaster du site http://www.nogueira.fr (Décembre 2010 - Aujourd'hui)",
+						"Webmaster du site http://www.ponsolle-web-consulting.fr (Mars 2012 - Aujourd'hui)",
+						"Webmaster du site http://www.mickaelponsolle.fr (Août 2014 - Aujourd'hui)"
+					],
+					"envTech" : "AngularJS, Bootstrap, Android, AChartEngine, Java, MySQL, PHP5, Symfony2, Doctrine2, Xampp, Apache, JQuery,Git, Mercurial"
+				}
+			]
+		}
+	]
+}
