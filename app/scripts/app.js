@@ -11,7 +11,8 @@
 angular
   .module('mickaelponsolleApp', [
     'ngResource',
-    'ngRoute'
+    'ngRoute',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
