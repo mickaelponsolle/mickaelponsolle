@@ -5,13 +5,8 @@
 			"ville" : "Pessac",
 			"departement" : "33",
 			"dates" : "08-2013 / Aujourd'hui",
+			"comptemission" : "SII",
 			"projets" : [
-				{
-					"description" : [
-						"Mission pour le compte de SII"
-					],
-					"envTech" : ""
-				},
 				{
 					"description" : [
 						"Développement du backend de l’application mobile Business Lounge disponible sur iOS, Android et Windows phone.",
@@ -76,6 +71,233 @@
 						"Webmaster du site http://www.mickaelponsolle.fr (Août 2014 - Aujourd'hui)"
 					],
 					"envTech" : "AngularJS, Bootstrap, Android, AChartEngine, Java, MySQL, PHP5, Symfony2, Doctrine2, Xampp, Apache, JQuery,Git, Mercurial"
+				}
+			]
+		},
+		{
+			"societe" : "Tritem",
+			"ville" : "Mérignac",
+			"departement" : "33",
+			"dates" : "05-2013 / 07-2013",
+			"projets" : [
+				{
+					"description" : [
+						"Développement d’une application mobile sous Android connectée à une application de gestion de comptabilité d’une auto entreprise"
+					],
+					"envTech" : "Android, AChartEngine, Java, MySQL, PHP5, Symfony2, Doctrine2, Mercurial"
+				}
+			]
+		},
+		{
+			"societe" : "AGFA Healthcare",
+			"ville" : "Artigues Près Bordeaux",
+			"departement" : "33",
+			"dates" : "10-2012 / 05-2013",
+			"comptemission" : "Tritem",
+			"projets" : [
+				{
+					"description" : [
+						"Développement d'un module de suivi du parcours du patient pour le logiciel ORBIS destiné aux hôpitaux (CHU).",
+						"Utilisation des méthodes agiles SCRUM et XP.",
+						"Développement en collaboration avec une équipe allemande (langue utilisée : l'anglais)."
+					],
+					"envTech" : "Java 1.6, Swing, Framework propriétaire, SVN, JUnit, Maven2, Jenkins, Toad, Oracle"
+				}
+			]
+		},
+		{
+			"societe" : "Gaz de Bordeaux",
+			"ville" : "Bordeaux",
+			"departement" : "33",
+			"dates" : "06-2012 / 09-2012",
+			"comptemission" : "Tritem",
+			"projets" : [
+				{
+					"description" : [
+						"Mise à jour des flux et des web services 2011 pour le commercialisateur GAZ DE BORDEAUX.",
+						"- Analyse des demandes d'évolutions",
+						"- Développement PL/SQL et Java/J2EE",
+						"- Réalisation de fiche de test unitaire"
+
+					],
+					"envTech" : "Oracle 8i, PL/SQL, Java/J2EE, JONAS, Mantis, CVS"
+				},
+				{
+					"description" : [
+						"Chargé de projet sur l'extranet Domestique et Professionnel.",
+						"- Analyse des demandes d'évolutions",
+						"- Développement PL/SQL et PHP/Javascript/JQuery",
+						"- Réalisation de fiche de test unitaire"
+					],
+					"envTech" : "Oracle 8i, PL/SQL, PHP, JQuery, JQPlot, Mantis, Mercurial"
+				}
+			]
+		},
+		{
+			"societe" : "Gras Savoye",
+			"ville" : "Bruges",
+			"departement" : "33",
+			"dates" : "05-2009 / 05-2012",
+			"comptemission" : "Tritem",
+			"projets" : [
+				{
+					"description" : [
+						"Réalisation du portail web international de déclaration et gestion complète des sinistres (IARDT). ",
+						"- Analyse des cahiers des charges réalisés par la MOA",
+						"- Rédaction de spécifications techniques",
+						"- Chiffrage et planning des tâches",
+						"- Modélisation avec l’outil PowerAMC",
+						"- volution et maintenance du socle GWT de GRAS SAVOYE",
+						"- Réalisation complète de l’application en GWT/Spring/iBatis/Oracle",
+						"- Etude sur un outil de BPM : Bonita",
+						"- Gestion des interfaces avec applications tierces (Editique, GED, comptabilité, …)",
+						"- Intégration continue avec Hudson",
+						"- Gestion des livrables",
+						"- Responsable de l’évolutif sur l’ensemble de l’application",
+						"- Responsable de la maintenance sur l’ensemble de l’application",
+						"- Formation des nouveaux arrivants et de l'équipe sous-traitante (île Maurice)",
+						"- Comités projet"
+
+					],
+					"envTech" : "GWT, Java/J2EE, BPM, Bonita, Telelogic Synergy, SVN, JUnit, GED, Maven, Hudson, Mantis, Telelogic Change, Clarity, iBatis, Spring, Oracle Application Server, Apache Tomcat, Toad, SQL Developer, Oracle 10g/11g, PL/SQL."
+				},
+				{
+					"description" : [
+						"Service de tarification générique.",
+						"- Rédaction de l'expression de besoin",
+						"- Rédaction de spécifications fonctionnelles",
+						"- Chiffrage et planning des tâches",
+						"- Conception de l'application en MVP",
+						"- Rédaction de spécifications techniques (GWT/gwt-dispatch/Spring/iBatis/Oracle) à destination de l'équipe sous-traitante (île Maurice)",
+						"- Intégration continue avec Hudson",
+						"- Qualification des livrables",
+						"- Gestion des livrables",
+						"- Comités projets"
+					],
+					"envTech" : "GWT, MVP, Java/J2EE, Telelogic Synergy, JUnit, Maven, Hudson, Telelogic Change, Clarity, iBatis, Spring, Oracle Application Server, Apache Tomcat, SQL Developer, Oracle 10g/11g, PL/SQL."
+				}
+				,
+				{
+					"description" : [
+						"Service de référencement des tiers comptables.",
+						"- Rédaction de spécifications fonctionnelles et techniques",
+						"- Chiffrage et planning des tâches",
+						"- Réalisation complète de l'application en GWT/Spring/iBatis/Oracle",
+						"- Intégration continue avec Hudson",
+						"- Gestion des livrables",
+						"- Formation des nouveaux arrivants",
+						"- Comités projets"
+					],
+					"envTech" : "GWT, Java/J2EE, Telelogic Synergy, JUnit, Maven, Hudson, iBatis, Spring, Apache Tomcat, SQL Developer, Oracle 10g/11g, PL/SQL."
+				}
+			]
+		},
+		{
+			"societe" : "Tritem",
+			"ville" : "Mérignac",
+			"departement" : "33",
+			"dates" : "07-2008 / 04-2009",
+			"projets" : [
+				{
+					"description" : [
+						"Réalisation du système d'information TRITEM pour la gestion des rapports d'activités, des demandes de congés, de la facturation client et des salaires"
+					],
+					"envTech" : "J2EE (Java, Portlet), SVN, JUnit, Mantis, Sonar, Maven, Hibernate, Spring, Flex, JBoss, JBoss Portal, Hudson, MySQL, GWT"
+				}
+			]
+		},
+		{
+			"societe" : "Macif",
+			"ville" : "Niort",
+			"departement" : "79",
+			"dates" : "01-2008 / 07-2008",
+			"comptemission" : "Tritem",
+			"projets" : [
+				{
+					"description" : [
+						"Portail web de déclaration et gestion complète des sinistres IARD (Incendie, Accident, et Risques Divers) pour ECA (Écureuil Assurances devenu GCE Assurances)"
+					],
+					"envTech" : "Websphere, WSAD, Oracle 9i, Ant, CVS, Javascript, Checkstyle, PMD, Mega, Mantis"
+				}
+			]
+		},
+		{
+			"societe" : "Thales Avionics",
+			"ville" : "Le Haillan",
+			"departement" : "33",
+			"dates" : "12-2004 / 01-2008",
+			"comptemission" : "Ausy",
+			"projets" : [
+				{
+					"description" : [
+						"RESPONSABLE DU SUIVI DES LIVRAISONS FOURNISSEURS ET CONCEPTEUR DÉVELOPPEUR (05/2007 - 01/2008)",
+						"Suivi technique des outils THALES Avionics (un logiciel de spécification d'apparence et un logiciel de symbologie pour les tableaux de bord avioniques)",
+						"En complément du logiciel de symbologie, travaux autour d'un logiciel d'injection de signature visuelle dans les polices de caractères utilisées pour le rendu des tableaux de bord (100 jours)",
+						"En collaboration avec le fournisseur en charge du logiciel de spécification d'apparence, développement de classes utilitaires en Java sous Eclipse."
+					],
+					"envTech" : "Java, C, Visual Studio, Eclipse, Clearcase, Perl, OpenPerl, gcc"
+				},
+				{
+					"description" : [
+						"CHEF DE PROJET (12/2006 - 05/2007)",
+						"Conception/Réalisation de benchmark graphiques sur les processeurs PQII Pro et PQIII avec l'OS VxWorks dans le cadre de l'appel d'offres AIRBUS A350 (gestion d'une équipe de 3 personnes : participation à la proposition technique et commerciale, estimation des charges, planning avec MS Project, suivi de l'avancement, reporting)"
+					],
+					"envTech" : "OS VxWorks, MS Project, C, Windriver Workbench (basé sur Eclipse), processeurs PQII Pro et PQIII, SVN, Windows XP"
+				},
+				{
+					"description" : [
+						"INGÉNIEUR D'ÉTUDES (02/2006 - 04/2007)",
+						"Participation aux projets applicatifs du casque TOPOWL d'aide au pilotage pour les hélicoptères NH90, HAP et l'avion de combat MIG29"
+					],
+					"envTech" : "C, Unix, scripts Shell, RS422, RS232, Clearcase, gcc"
+				},
+				{
+					"description" : [
+						"INGÉNIEUR D'ÉTUDES PUIS RESPONSABLE DE LOT LOGICIEL (12/2004 - 02/2006)",
+						"Conception/Réalisation/Validation des drivers d'un système de visualisation pour les avions de combat MIRAGE 2000-5 et MIRAGE 2000-D",
+						"A partir de septembre 2005 et en parallèle des tâches de validation logicielle, prise en main de la gestion du lot logiciel (Formation de 2 nouveaux intervenants sur le projet, Suivi de l'avancement et reporting, Gestion des livraisons, Comités client)"
+					],
+					"envTech" : "DO178B, Windows 2000, C, Cygwin, RS422, RS232, Clearcase, gcc"
+				}
+			]
+		},
+		{
+			"societe" : "Thales Systèmes Aéroportés",
+			"ville" : "Pessac",
+			"departement" : "33",
+			"dates" : "01-2004 / 07-2004",
+			"projets" : [
+				{
+					"description" : [
+						"Etude de testabilité sur un enregistreur de vol pour l'avion de combat RAFALE (méthode AMDEC)."
+					]
+				}
+			]
+		},
+		{
+			"societe" : "Universidad Politécnica de Cataluña",
+			"ville" : "Barcelone",
+			"departement" : "Espagne",
+			"dates" : "06-2003 / 09-2003",
+			"projets" : [
+				{
+					"description" : [
+						"Développement d'un algorithme de traitement de la parole utilisant la représentation MFC (mel-frequency cepstrum).",
+						"Réalisation faite sur Matlab dans un environnement Linux Red Hat."
+					]
+				}
+			]
+		},
+		{
+			"societe" : "Ideal Visuel Europe",
+			"ville" : "Nantes",
+			"departement" : "44",
+			"dates" : "04-2001 / 06-2001",
+			"projets" : [
+				{
+					"description" : [
+						"Développement d'une interface matérielle et logicielle configurant des écrans à LED, gérée par un microcontrôleur PIC17C756."
+					]
 				}
 			]
 		}

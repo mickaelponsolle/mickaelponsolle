@@ -1,7 +1,7 @@
 <div class="row">
 	<h2>Experiences professionnelles</h2>
 	<div class="panel panel-primary" ng-repeat="experience in experiences">
-		<div class="panel-heading"><strong>{{experience.societe}}</strong> - {{experience.societe}} ({{experience.departement}}) <em class="pull-right">{{experience.dates}}</em></div>
+		<div class="panel-heading"><strong>{{experience.societe}}</strong> - {{experience.ville}} ({{experience.departement}})<span ng-show="experience.comptemission"> - Mission pour {{experience.comptemission}}</span><em class="pull-right">{{experience.dates}}</em></div>
 		<div class="list-group">
 			<div class="list-group-item" ng-repeat="projet in experience.projets">
 				<p>
