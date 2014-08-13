@@ -8,13 +8,14 @@
  *
  * Main module of the application.
  */
-angular
+ var app = angular
   .module('mickaelponsolleApp', [
     'ngResource',
     'ngRoute',
     'ui.bootstrap'
-  ])
-  .config(function ($routeProvider) {
+  ]);
+
+app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -32,3 +33,14 @@ angular
         redirectTo: '/'
       });
   });
+
+
+
+app.config(['$tooltipProvider', function($tooltipProvider){
+  $tooltipProvider.setTriggers({
+    'mouseenter': 'mouseleave',
+    'click': 'click',
+    'focus': 'blur',
+    'never': 'mouseleave' // <- This ensures the tooltip will go away on mouseleave
+  });
+}]);
