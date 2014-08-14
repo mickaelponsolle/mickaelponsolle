@@ -18,4 +18,10 @@ angular.module('mickaelponsolleApp').controller('ExperiencesCtrl', ['$scope', '$
     error(function() {
 	    window.alert('KO');
     });    	
+
+    $scope.expand = function() {
+    	for (var i=0; i<$scope.experiences.length; i++) {
+    		$scope.experiences[i].collapsed = !$scope.experiences[i].collapsed;
+    	}
+    };
 }]);
