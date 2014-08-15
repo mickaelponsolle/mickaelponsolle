@@ -28,6 +28,9 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/experiences.html',
         controller: 'ExperiencesCtrl'
       })
+      .when('/competences', {
+        templateUrl: 'views/competences.html',
+      })
       .when('/contact', {
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl'
