@@ -8,7 +8,12 @@
 			 tooltip="Cliquez pour avoir plus de détails" 
 			 tooltip-trigger="{{{true: 'mouseenter', false: 'never'}[experience.collapsed]}}">
 			<strong>{{experience.societe}}</strong> - {{experience.ville}} ({{experience.departement}})<span ng-show="experience.comptemission"> - Mission pour {{experience.comptemission}}</span>
-			<em class="pull-right">{{experience.dates}}</em>
+			<div class="pull-right">
+				<span ng-show="!experience.collapsed" class="glyphicon glyphicon-minus-sign pull-right"></span>
+				<span ng-show="experience.collapsed" class="glyphicon glyphicon-plus-sign pull-right"></span>
+				<em>{{experience.dates}}&nbsp</em>
+			</div>
+			
 		</div>
 		<div class="list-group" collapse="experience.collapsed">
 			<div class="list-group-item" ng-repeat="projet in experience.projets">
@@ -17,7 +22,7 @@
 				</p>
 				<small ng-show="projet.envTech">Environnement technique : {{projet.envTech}}</small>
 			</div>	
-		</div>	
+		</div>
 	</div>	
 </div>
 
