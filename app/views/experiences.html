@@ -1,5 +1,5 @@
 <div class="row">
-	<h2>Experiences professionnelles <small class="glyphicon glyphicon-fullscreen pull-right" ng-click="expand()" tooltip="Voir toutes les expériences"></small></h2> 
+	<h2>Experiences professionnelles <small class="fa fa-expand pull-right" ng-click="expand()" tooltip="Voir toutes les expériences"></small></h2> 
     <div class="panel panel-primary" ng-repeat="experience in experiences">
 		<div class="panel-heading" 
 			 ng-init="experience.collapsed = true" 
@@ -9,8 +9,8 @@
 			 tooltip-trigger="{{{true: 'mouseenter', false: 'never'}[experience.collapsed]}}">
 			<strong>{{experience.societe}}</strong> - {{experience.ville}} ({{experience.departement}})<span ng-show="experience.comptemission"> - Mission pour {{experience.comptemission}}</span>
 			<div class="pull-right">
-				<span ng-show="!experience.collapsed" class="glyphicon glyphicon-minus-sign pull-right"></span>
-				<span ng-show="experience.collapsed" class="glyphicon glyphicon-plus-sign pull-right"></span>
+				<span ng-show="!experience.collapsed" class="fa fa-minus-circle pull-right"></span>
+				<span ng-show="experience.collapsed" class="fa fa-plus-circle pull-right"></span>
 				<em>{{experience.dates}}&nbsp</em>
 			</div>
 			
