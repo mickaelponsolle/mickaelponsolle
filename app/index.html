@@ -32,7 +32,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
           <span class="icon-bar"></span>
@@ -49,17 +49,27 @@
           <li><a href="#/formations" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-graduation-cap"></i>Formations</a></li>
           <li><a href="#/experiences" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-briefcase"></i>Expériences</a></li>
           <li><a href="#/competences" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-leaf"></i>Compétences</a></li>
-          <li><a href="https://bitbucket.org/zemrepository" target="_blank" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-bitbucket"></i>BitBucket</a></li>
-          <li><a href="#/contact" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-windows"></i>Contact</a></li>
         </ul>
       </div>
-    </div>
+    </nav>
 
     <div class="container">
 
       <div ng-view=""></div>
 
     </div>
+
+
+    <nav id="bottomNavbar"class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <div class="container-fluid center">
+        <ul class="nav navbar-nav fullwidth">
+          <li class="col-xs-3"><a href="https://bitbucket.org/zemrepository" target="_blank" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-yelp fa-2x"></i>&nbsp;Viadeo</a></li>
+          <li class="col-xs-3"><a href="https://bitbucket.org/zemrepository" target="_blank" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-linkedin fa-2x"></i>&nbsp;LinkedIn</a></li>
+          <li class="col-xs-3"><a href="https://bitbucket.org/zemrepository" target="_blank" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-twitter fa-2x"></i>&nbsp;Twitter</a></li>
+          <li class="col-xs-3"><a href="https://bitbucket.org/zemrepository" target="_blank" data-toggle="collapse" data-target=".navbar-inverse-collapse"><i class="fa fa-bitbucket fa-2x"></i>&nbsp;BitBucket</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
