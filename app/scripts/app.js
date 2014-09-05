@@ -31,10 +31,6 @@ app.config(function ($routeProvider) {
       .when('/competences', {
         templateUrl: 'views/competences.html',
       })
-      .when('/contact', {
-        templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });
