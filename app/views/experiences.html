@@ -7,11 +7,14 @@
 			 tooltip-placement="bottom" 
 			 tooltip="Cliquez pour avoir plus de détails" 
 			 tooltip-trigger="{{{true: 'mouseenter', false: 'never'}[experience.collapsed]}}">
-			<div class="row">
-				<div class="col-xs-8">
+			<div class="row vcenterparent">
+				<div class="col-sm-1 col-xs-2 vcenterchild">
+					<img ng-show="experience.logo" src="{{experience.logo}}">
+				</div>
+				<div class="col-sm-7 col-xs-6 vcenterchild">
 					<strong>{{experience.societe}}</strong> - {{experience.ville}} ({{experience.departement}})<span ng-show="experience.comptemission"> - Mission pour {{experience.comptemission}}</span>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-sm-4 col-xs-4 vcenterchild">
 					<div class="pull-right">
 						<span ng-show="!experience.collapsed" class="fa fa-minus-circle pull-right"></span>
 						<span ng-show="experience.collapsed" class="fa fa-plus-circle pull-right"></span>

@@ -6,6 +6,7 @@
 			"departement" : "33",
 			"dates" : "08-2013 / Aujourd'hui",
 			"comptemission" : "SII",
+			"logo" : "images/logos/orange.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -42,6 +43,7 @@
 			"ville" : "Mérignac",
 			"departement" : "33",
 			"dates" : "08-2013 / Aujourd'hui",
+			"logo" : "images/logos/sii.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -58,6 +60,7 @@
 			"ville" : "Parempuyre",
 			"departement" : "33",
 			"dates" : "10-2009 / Aujourd'hui",
+			"logo" : "images/logos/ponsolle-web-consulting.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -79,6 +82,7 @@
 			"ville" : "Mérignac",
 			"departement" : "33",
 			"dates" : "05-2013 / 07-2013",
+			"logo" : "images/logos/tritem.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -94,6 +98,7 @@
 			"departement" : "33",
 			"dates" : "10-2012 / 05-2013",
 			"comptemission" : "Tritem",
+			"logo" : "images/logos/agfa.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -111,6 +116,7 @@
 			"departement" : "33",
 			"dates" : "06-2012 / 09-2012",
 			"comptemission" : "Tritem",
+			"logo" : "images/logos/gazdebordeaux.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -139,6 +145,7 @@
 			"departement" : "33",
 			"dates" : "05-2009 / 05-2012",
 			"comptemission" : "Tritem",
+			"logo" : "images/logos/grassavoye.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -197,6 +204,7 @@
 			"ville" : "Mérignac",
 			"departement" : "33",
 			"dates" : "07-2008 / 04-2009",
+			"logo" : "images/logos/tritem.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -212,6 +220,7 @@
 			"departement" : "79",
 			"dates" : "01-2008 / 07-2008",
 			"comptemission" : "Tritem",
+			"logo" : "images/logos/macif.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -227,6 +236,7 @@
 			"departement" : "33",
 			"dates" : "12-2004 / 01-2008",
 			"comptemission" : "Ausy",
+			"logo" : "images/logos/thales.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -266,6 +276,7 @@
 			"ville" : "Pessac",
 			"departement" : "33",
 			"dates" : "01-2004 / 07-2004",
+			"logo" : "images/logos/thales.jpg",
 			"projets" : [
 				{
 					"description" : [
@@ -279,6 +290,7 @@
 			"ville" : "Barcelone",
 			"departement" : "Espagne",
 			"dates" : "06-2003 / 09-2003",
+			"logo" : "images/logos/upc.jpg",
 			"projets" : [
 				{
 					"description" : [
