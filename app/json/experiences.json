@@ -5,7 +5,18 @@
 			"ville" : "Bordeaux",
 			"departement" : "33",
 			"dates" : "01-2015 / Aujourd'hui",
-			"logo" : "images/logos/cpam.png"			
+			"logo" : "images/logos/cpam.png", 
+			"projets" : [
+				{
+					"description" : [
+						"Refonte du Système Automatisé de Gestion des Examens de Santé : SAGES2",
+						"Encadrement d'une équipe de 6 développeurs.",
+						"Mise en place de pratiques agiles au sein de l'équipe de développement. ",
+						"Définition de l'architecture globale de l'application : mode déconnecté, chiffrement des données médicales, client riche, messagerie sécurisée, drivers spécifiques pour les appareils para-cliniques, ..."
+					],
+					"envTech" : "Java8, JavaFX, Spring, MyBatis, H2, PostGreSQL, Jersey, Apache Tomcat, Maven, Git, Jenkins, Junit, Mockito, BouncyCastle, .." 
+				}
+			]			
 		},
 		{
 			"societe" : "ORANGE",
