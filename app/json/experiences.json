@@ -10,11 +10,13 @@
 				{
 					"description" : [
 						"Refonte du Système Automatisé de Gestion des Examens de Santé : SAGES2",
-						"Encadrement d'une équipe de 6 développeurs.",
-						"Mise en place de pratiques agiles au sein de l'équipe de développement. ",
-						"Définition de l'architecture globale de l'application : mode déconnecté, chiffrement des données médicales, client riche, messagerie sécurisée, drivers spécifiques pour les appareils para-cliniques, ..."
+						"Encadrement d'une équipe de 12 développeurs : 6 internes et 6 prestataires (Cap Gemini)",
+						"Mise en place de pratiques agiles au sein de l'équipe de développement : livraison itérative (intégration continue), Kanban (WIP), pair programming, revue de code, ...",
+						"Promotion de TDD et Clean Code",
+						"Définition de l'architecture globale de l'application : 1 serveur central et une centaine de serveurs installés dans les Centres d'Examens de Santé",
+						"Mise en place de Docker, chiffrement de données médicales, client lourd, messagerie sécurisée (HPRIM Net), drivers spécifiques pour les appareils para-cliniques, ..."
 					],
-					"envTech" : "Java8, JavaFX, Spring, MyBatis, H2, PostGreSQL, Jersey, Apache Tomcat, Maven, Git, Jenkins, Junit, Mockito, BouncyCastle, .." 
+					"envTech" : "Java8, JavaFX, Docker, Spring, MyBatis, H2, PostGreSQL, Apache Tomcat, Maven, Git, Jenkins, SonarQube, Junit, Mockito, BouncyCastle, .." 
 				}
 			]			
 		},
@@ -74,7 +76,7 @@
 			]
 		},
 		{
-			"societe" : "Ponsolle Web Consulting",
+			"societe" : "Mickaël PONSOLLE",
 			"ville" : "Parempuyre",
 			"departement" : "33",
 			"dates" : "10-2009 / Aujourd'hui",
@@ -87,8 +89,8 @@
 						"Webmaster du site http://www.hair-style.fr (Octobre 2009 - Aujourd'hui)", 
 						"Webmaster du site http://www.medoc-bat.fr (Septembre 2010 - Septembre 2012)", 
 						"Webmaster du site http://www.onaturelle.fr (Juillet 2012 - Juillet 2013)",
-						"Webmaster du site http://www.nogueira.fr (Décembre 2010 - Aujourd'hui)",
-						"Webmaster du site http://www.ponsolle-web-consulting.fr (Mars 2012 - Aujourd'hui)",
+						"Webmaster du site http://www.nogueira.fr (Décembre 2010 - Décembre 2015)",
+						"Webmaster du site http://www.ponsolle-web-consulting.fr (Mars 2012 - Août 2014)",
 						"Webmaster du site http://www.mickaelponsolle.fr (Août 2014 - Aujourd'hui)"
 					],
 					"envTech" : "AngularJS, Bootstrap, Android, AChartEngine, Java, MySQL, PHP5, Symfony2, Doctrine2, Xampp, Apache, JQuery,Git, Mercurial"
